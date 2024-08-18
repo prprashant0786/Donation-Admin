@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#1E3F5B</color> <!-- Deep Blue / Navy Blue -->
+    <color name="colorPrimaryDark">#172A3A</color> <!-- Darker shade for status bar -->
+    <color name="colorAccent">#FFA500</color> <!-- Gold or Orange -->
+    <color name="backgroundColor">#FFFFFF</color> <!-- White -->
+    <color name="textColorPrimary">#333333</color> <!-- Dark Gray for primary text -->
+</resources>

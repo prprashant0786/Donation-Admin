@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "38059157070",
+    "firebase_url": "https://donation-cc71d-default-rtdb.firebaseio.com",
+    "project_id": "donation-cc71d",
+    "storage_bucket": "donation-cc71d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38059157070:android:e30aee37b12c36da39c51f",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2l-CxaGPR0O6rb_pFGfjHYp7uNthLVds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38059157070:android:34ef12fb1d97cf8639c51f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2l-CxaGPR0O6rb_pFGfjHYp7uNthLVds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <!-- Left Text View -->
+    <TextView
+        android:id="@+id/textViewLeft1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/englishor"
+        android:textSize="16sp"
+        android:textColor="#FF671F"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textViewLeft2"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/textViewLeft2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/englishwt"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewLeft1"
+        app:layout_constraintBottom_toTopOf="@id/textViewLeft3"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/textViewLeft3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/englishgr"
+        android:textSize="16sp"
+        android:textColor="#046A38"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewLeft2"
+        android:padding="5dp"
+        />
+
+    <!-- Right Text View -->
+    <TextView
+        android:id="@+id/textViewRight1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/hindior"
+        android:textSize="16sp"
+        android:textColor="#FF671F"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewLeft3"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/textViewRight2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/hindiwt"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRight1"
+
+        android:padding="5dp"
+        />
+    <TextView
+        android:id="@+id/textViewRight3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/hindigr"
+        android:textSize="16sp"
+        android:textColor="#046A38"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewRight2"
+
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/textViewRight3"
+        app:layout_constraintBottom_toTopOf="@id/contactUsText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/btnclt"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:src="@drawable/clothes_icon"
+                android:padding="5dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:text="Donate Clothes"
+                android:textColor="@color/white"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnstation"
+            android:layout_marginTop="16dp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:src="@drawable/stationery_icon"
+                android:padding="5dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:text="Donate Stationary"
+                android:textColor="@color/white"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btntoys"
+            android:layout_marginTop="16dp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:src="@drawable/toys_icon"
+                android:padding="5dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:text="Donate Toys"
+                android:textColor="@color/white"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnother"
+            android:layout_marginTop="16dp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:src="@drawable/other_icon"
+                android:padding="5dp"
+                android:scaleType="fitStart"
+                />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:text="Other Item"
+                android:textColor="@color/white"
+                android:layout_marginLeft="1dp"
+                android:gravity="center"
+                android:textSize="30dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/contactUsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Us:"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/contactUsText1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"
+        />
+    <TextView
+        android:id="@+id/contactUsText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="987456321 | 987654321"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="5dp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

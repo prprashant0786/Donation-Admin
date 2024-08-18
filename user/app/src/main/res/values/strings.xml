@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Donation</string>
+    <string name="hindior">हमारे कारण का समर्थन करें, एक बदलाव लाएं।</string>
+    <string name="hindiwt">आपका योगदान आशा लाने और जीवनों को बदलने की क्षमता रख सकता है।</string>
+    <string name="hindigr">मिलकर, हम एक बेहतर कल बना सकते हैं।</string>
+    <string name="englishor">Support our cause, make a difference.</string>
+    <string name="englishwt">Your donation can bring hope and change lives.</string>
+    <string name="englishgr">Together, we can create a better tomorrow.</string>
+</resources>
